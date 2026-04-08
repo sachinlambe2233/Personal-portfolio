@@ -654,6 +654,29 @@ h4 {
     border: 1px solid rgba(99, 102, 241, 0.2);
 }
 
+/* Client Work Tag Styling */
+.client-tag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(99, 102, 241, 0.9);
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    backdrop-filter: blur(4px);
+    z-index: 10;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Custom Glow for Client Project */
+#project-3:hover {
+    box-shadow: 0 30px 60px rgba(99, 102, 241, 0.25);
+    border-color: var(--accent-primary);
+}
+
 /* Contact Section */
 .contact-box {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
